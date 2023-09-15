@@ -808,24 +808,19 @@ export default function Home() {
             <div className="align-items-start align-items-md-center flex-column flex-md-row mb-60 row">
               <div className="col-lg-7">
                 <div className="block-title">
-                  <p>
-                    <img
-                      src="data:image/png;base64,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"
-                      width="15"
-                      alt=""
-                    />
-                    Blog Posts
-                  </p>
-                  <h3>Latest news &amp; articles directly from the blog.</h3>
+                  <p>News & Updates</p>
+                  <h3>
+                    Get updates on our activity as well as other useful content.
+                  </h3>
                 </div>
               </div>
               <div className="d-flex col-lg-5">
                 <div className="my-auto">
-                  <p className="block-text pr-10 mb-0">
+                  {/* <p className="block-text pr-10 mb-0">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Have you done google research which
                     works all the time.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -850,30 +845,29 @@ export default function Home() {
                 <div className="blog-card">
                   <div className="blog-card__inner">
                     <div className="blog-card__image">
-                      <img
-                        src="static/images/blog-1-1-b132a0dbac0f9767327c1d47267529ec.jpg"
-                        alt=""
-                      />
-                      <div className="blog-card__date">20 May</div>
+                      <img src="blog 1.jpg" alt="" />
+                      <div className="blog-card__date"> August 1st</div>
                     </div>
                     <div className="blog-card__content">
                       <div className="blog-card__meta">
-                        <a href="news-details">
+                        {/* <a href="news-details">
                           <i className="far fa-user-circle"></i>
                           Admin
-                        </a>
-                        <a href="news-details">
+                        </a> */}
+                        {/* <a href="news-details">
                           <i className="far fa-comments"></i>2 Comments
-                        </a>
+                        </a> */}
                       </div>
                       <h3>
                         <a href="news-details">
-                          Our donation is hope for poor childrens
+                          Managing stress in changing times with ThankGod Ocheho
+                          – RECAP
                         </a>
                       </h3>
                       <p>
-                        Lorem ipsum is simply free text used by copytyping
-                        refreshing.
+                        Our increasingly busy lives and the current state of our
+                        country with the constant challenges we face daily in
+                        Nigeria cause our...
                       </p>
                       <a className="blog-card__more" href="news-details">
                         <i className="far fa-angle-right"></i>Read More
@@ -886,30 +880,28 @@ export default function Home() {
                 <div className="blog-card">
                   <div className="blog-card__inner">
                     <div className="blog-card__image">
-                      <img
-                        src="static/images/blog-1-2-5534813ddc0fe901df77f7fd2e4b6ea1.jpg"
-                        alt=""
-                      />
-                      <div className="blog-card__date">20 May</div>
+                      <img src="/blog 2.jpg" alt="" />
+                      <div className="blog-card__date"> July 5th</div>
                     </div>
                     <div className="blog-card__content">
                       <div className="blog-card__meta">
-                        <a href="news-details">
+                        {/* <a href="news-details">
                           <i className="far fa-user-circle"></i>
                           Admin
                         </a>
                         <a href="news-details">
                           <i className="far fa-comments"></i>2 Comments
-                        </a>
+                        </a> */}
                       </div>
                       <h3>
                         <a href="news-details">
-                          Our donation is hope for poor childrens
+                          Wevvo Nigeria: 2nd Quarter Activity Report.
                         </a>
                       </h3>
                       <p>
-                        Lorem ipsum is simply free text used by copytyping
-                        refreshing.
+                        QUARTERLY REPORT. FOR: WEVVO NIGERIA MONTHS UNDER
+                        REVIEW: APRIL, MAY AND JUNE. YEAR: 2022 We have a long
+                        list of programs and activities for this year;...
                       </p>
                       <a className="blog-card__more" href="news-details">
                         <i className="far fa-angle-right"></i>Read More
@@ -922,30 +914,29 @@ export default function Home() {
                 <div className="blog-card">
                   <div className="blog-card__inner">
                     <div className="blog-card__image">
-                      <img
-                        src="static/images/blog-1-3-78e1d271ab99e29f778aef261c2d2b2d.jpg"
-                        alt=""
-                      />
-                      <div className="blog-card__date">20 May</div>
+                      <img src="/blog 3.jpg" alt="" />
+                      <div className="blog-card__date"> May 23rd</div>
                     </div>
                     <div className="blog-card__content">
                       <div className="blog-card__meta">
-                        <a href="news-details">
+                        {/* <a href="news-details">
                           <i className="far fa-user-circle"></i>
                           Admin
                         </a>
                         <a href="news-details">
                           <i className="far fa-comments"></i>2 Comments
-                        </a>
+                        </a> */}
                       </div>
                       <h3>
                         <a href="news-details">
-                          Our donation is hope for poor childrens
+                          Tehila 5.0, A Group Therapy Event, In partnership with
+                          Wevvo Nigeria.
                         </a>
                       </h3>
                       <p>
-                        Lorem ipsum is simply free text used by copytyping
-                        refreshing.
+                        Safe Space Initiative in partnership with Wevvo Nigeria,
+                        Rubies Ink Initiative (Mediacon) and Fatimah Balaraba
+                        Foundation hosted the Tehila 5.0, A life...
                       </p>
                       <a className="blog-card__more" href="news-details">
                         <i className="far fa-angle-right"></i>Read More
