@@ -21214,6 +21214,9 @@ h6 {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+  .client-carousel img {
+    opacity: 0.9 !important;
+  }
 }
 .event-home-two {
   background-repeat: no-repeat;
@@ -22109,6 +22112,7 @@ h6 {
   top: 0;
   left: 0;
   border-radius: 15px;
+  width: 29%;
 }
 .footer-widget__newsletter p {
   margin-top: -10px;
@@ -22196,6 +22200,9 @@ h6 {
   .faq-one #accordion .para-title {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .footer-widget__blog li > img {
+    width: 20%;
   }
 }
 .faq-one #accordion .para-title span {
