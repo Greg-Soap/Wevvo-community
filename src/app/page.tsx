@@ -292,7 +292,22 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Swiper spaceBetween={20} slidesPerView={4}>
+            <Swiper
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+              }}
+            >
               <SwiperSlide>
                 {" "}
                 <div className="cause-card">
@@ -304,27 +319,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="cause-card__content">
-                      <div className="cause-card__top">
-                        {/* <div className="cause-card__progress">
-                          <span
-                            style={{ width: "23%" }}
-                            className="wow cardProgress"
-                            data-wow-duration="1500ms"
-                          >
-                            <b>
-                              <i>23</i>%
-                            </b>
-                          </span>
-                        </div> */}
-                        {/* <div className="cause-card__goals">
-                          <p>
-                            <strong>Raised:</strong> $25,270
-                          </p>
-                          <p>
-                            <strong>Goal:</strong> $30,000
-                          </p>
-                        </div> */}
-                      </div>
+                      <div className="cause-card__top"></div>
                       <h3>
                         <a href="cause-details">Divorced Women</a>
                       </h3>
@@ -332,18 +327,6 @@ export default function Home() {
                         Six percent of African women above the age of 14 are
                         divorcees.
                       </p>
-                      {/* <div className="cause-card__bottom">
-                        <a className="thm-btn" href="cause-details">
-                          Donate Now
-                        </a>
-                        <a
-                          className="cause-card__share"
-                          aria-label="share postr"
-                          href="#"
-                        >
-                          <i className="azino-icon-share"></i>
-                        </a>
-                      </div>*/}
                     </div>
                   </div>
                 </div>
@@ -359,43 +342,10 @@ export default function Home() {
                       />
                     </div>
                     <div className="cause-card__content">
-                      {/* <div className="cause-card__top">
-                        <div className="cause-card__progress">
-                          <span
-                            style={{ width: "65%" }}
-                            className="wow cardProgress"
-                            data-wow-duration="1500ms"
-                          >
-                            <b>
-                              <i>65</i>%
-                            </b>
-                          </span>
-                        </div>
-                        <div className="cause-card__goals">
-                          <p>
-                            <strong>Raised:</strong> $25,270
-                          </p>
-                          <p>
-                            <strong>Goal:</strong> $30,000
-                          </p>
-                        </div>
-                      </div> */}
                       <h3>
                         <a href="cause-details">Single Mums</a>
                       </h3>
                       <p>Over 20% of mothers in Nigeria are single moms.</p>
-                      {/* <div className="cause-card__bottom">
-                        <a className="thm-btn" href="cause-details">
-                          Donate Now
-                        </a>
-                        <a
-                          className="cause-card__share"
-                          aria-label="share postr"
-                          href="#"
-                        >
-                          <i className="azino-icon-share"></i>
-                        </a>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -411,27 +361,6 @@ export default function Home() {
                       />
                     </div>
                     <div className="cause-card__content">
-                      {/* <div className="cause-card__top">
-                        <div className="cause-card__progress">
-                          <span
-                            style={{ width: "55%" }}
-                            className="wow cardProgress"
-                            data-wow-duration="1500ms"
-                          >
-                            <b>
-                              <i>55</i>%
-                            </b>
-                          </span>
-                        </div>
-                        <div className="cause-card__goals">
-                          <p>
-                            <strong>Raised:</strong> $25,270
-                          </p>
-                          <p>
-                            <strong>Goal:</strong> $30,000
-                          </p>
-                        </div>
-                      </div> */}
                       <h3>
                         <a href="cause-details">Sibling Breadwinners</a>
                       </h3>
@@ -439,18 +368,6 @@ export default function Home() {
                         There&apos;s a growing number of orphaned female
                         breadwinners in Nigeria.
                       </p>
-                      {/* <div className="cause-card__bottom">
-                        <a className="thm-btn" href="cause-details">
-                          Donate Now
-                        </a>
-                        <a
-                          className="cause-card__share"
-                          aria-label="share postr"
-                          href="#"
-                        >
-                          <i className="azino-icon-share"></i>
-                        </a>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -466,43 +383,10 @@ export default function Home() {
                       />
                     </div>
                     <div className="cause-card__content">
-                      {/* <div className="cause-card__top">
-                        <div className="cause-card__progress">
-                          <span
-                            style={{ width: "55%" }}
-                            className="wow cardProgress"
-                            data-wow-duration="1500ms"
-                          >
-                            <b>
-                              <i>55</i>%
-                            </b>
-                          </span>
-                        </div>
-                        <div className="cause-card__goals">
-                          <p>
-                            <strong>Raised:</strong> $25,270
-                          </p>
-                          <p>
-                            <strong>Goal:</strong> $30,000
-                          </p>
-                        </div>
-                      </div> */}
                       <h3>
                         <a href="cause-details">Widows</a>
                       </h3>
                       <p>About 9 percent of Nigerian women are widows.</p>
-                      {/* <div className="cause-card__bottom">
-                        <a className="thm-btn" href="cause-details">
-                          Donate Now
-                        </a>
-                        <a
-                          className="cause-card__share"
-                          aria-label="share postr"
-                          href="#"
-                        >
-                          <i className="azino-icon-share"></i>
-                        </a>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -587,26 +471,6 @@ export default function Home() {
                   <p>This is my hope and aspiration for WEVVO.</p>
                   <p>Love,</p>
                   <p style={{ fontStyle: "italic" }}>Weyinmie</p>
-                  {/* <div className="donate-options__icon-wrap">
-                    <div className="donate-options__icon">
-                      <i className="azino-icon-dove"></i>
-                      <h3>
-                        <a href="#">Living</a>
-                      </h3>
-                    </div>
-                    <div className="donate-options__icon">
-                      <i className="azino-icon-hamburger"></i>
-                      <h3>
-                        <a href="#">Food</a>
-                      </h3>
-                    </div>
-                    <div className="donate-options__icon">
-                      <i className="azino-icon-family"></i>
-                      <h3>
-                        <a href="#">Family</a>
-                      </h3>
-                    </div>
-                  </div> */}
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
@@ -645,8 +509,20 @@ export default function Home() {
             </div>
             <Swiper
               modules={[Autoplay]}
-              slidesPerView={4}
-              spaceBetween={30}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 25,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 30,
+                },
+              }}
               autoplay={{ disableOnInteraction: false, delay: 2500 }}
               className="team-4-col"
             >
@@ -779,8 +655,20 @@ export default function Home() {
             <div className="container-fluid">
               <Swiper
                 modules={[Autoplay]}
-                slidesPerView={4}
-                spaceBetween={20}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 25,
+                  },
+                  1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                  },
+                }}
                 autoplay={{ disableOnInteraction: false, delay: 2500 }}
               >
                 {gallerySlide.map((slide) => {
@@ -911,17 +799,6 @@ export default function Home() {
                     <span>Customer</span>
                   </div>
                 </SwiperSlide>{" "}
-                {/* <SwiperSlide>
-                  <p>
-                    This is due to their excellent service, competitive pricing
-                    and customer support. It’s throughly refresing to get such a
-                    personal touch.
-                  </p>
-                  <div className="testimonials-two__meta">
-                    <h3>Christine Rose</h3>
-                    <span>Customer</span>
-                  </div>
-                </SwiperSlide> */}
               </Swiper>
             </div>
           </section>
@@ -952,7 +829,22 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Swiper spaceBetween={30} slidesPerView={3}>
+            <Swiper
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 25,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+              }}
+            >
               <SwiperSlide>
                 {" "}
                 <div className="blog-card">

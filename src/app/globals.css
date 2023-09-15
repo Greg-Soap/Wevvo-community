@@ -19013,7 +19013,7 @@ Copyright (c) 2015 Daniel Eden
     border-top-right-radius: 15px;
   }
   .team-card__social {
-    bottom: 15%;
+    bottom: 15% !important;
     opacity: 1 !important;
     visibility: visible !important;
   }
