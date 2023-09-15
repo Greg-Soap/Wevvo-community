@@ -165,7 +165,7 @@ export default function Home() {
                 <div className="service-one__box">
                   <div className="service-one__icon background-secondary">
                     <div className="service-one__icon-inner">
-                      <i className="azino-icon-water-bottle"></i>
+                      <img src="/ab2.png" alt="" />
                     </div>
                   </div>
                   <h3>
@@ -182,7 +182,7 @@ export default function Home() {
                 <div className="service-one__box">
                   <div className="service-one__icon background-base">
                     <div className="service-one__icon-inner">
-                      <i className="azino-icon-hamburger"></i>
+                      <img src="/ab1.png" alt="" />
                     </div>
                   </div>
                   <h3>
@@ -200,7 +200,7 @@ export default function Home() {
                 <div className="service-one__box">
                   <div className="service-one__icon background-primary">
                     <div className="service-one__icon-inner">
-                      <i className="azino-icon-reading-book"></i>
+                      <img src="/ab4.png" alt="" />
                     </div>
                   </div>
                   <h3>
@@ -1146,7 +1146,7 @@ export default function Home() {
               <a className="scroll-to-top">
                 <i className="far fa-angle-up"></i>
               </a>
-              <p>© Copyright 2023 by Greg</p>
+              <p>© Copyright 2023</p>
               <div className="footer-social">
                 <a href="https://twitter.com/wevvo_ng" aria-label="twitter">
                   <i className="fab fa-twitter"></i>
