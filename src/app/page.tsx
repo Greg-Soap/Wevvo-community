@@ -646,7 +646,7 @@ export default function Home() {
             <div className="team-4-col">
               <div className="team-card text-center content-bg-1">
                 <div className="team-card__image">
-                  <img src="4-2.png" alt="" />
+                  <img src="/4.png" alt="Silja Thorbjornsdottir" />
                 </div>
                 <div className="team-card__social">
                   <a href="#" aria-label="social link">
@@ -660,10 +660,7 @@ export default function Home() {
               </div>
               <div className="team-card text-center content-bg-2">
                 <div className="team-card__image">
-                  <img
-                    src="static/images/team-2-2-f0a525223140e32988531be429e32ed3.jpg"
-                    alt=""
-                  />
+                  <img src="/5.jpg" alt="Adegboyega Adebajo" />
                 </div>
                 <div className="team-card__social">
                   <a href="#" aria-label="social link">
@@ -677,10 +674,7 @@ export default function Home() {
               </div>
               <div className="team-card text-center content-bg-3">
                 <div className="team-card__image">
-                  <img
-                    src="static/images/team-2-3-c4475b07f7071cdfc40924fb93060c22.jpg"
-                    alt=""
-                  />
+                  <img src="/2.jpg" alt="Christine Sesay" />
                 </div>
                 <div className="team-card__social">
                   <a href="#" aria-label="social link">
@@ -694,10 +688,7 @@ export default function Home() {
               </div>
               <div className="team-card text-center content-bg-4">
                 <div className="team-card__image">
-                  <img
-                    src="static/images/team-2-4-2423fd1af41aa00fb860e71dba9c02fc.jpg"
-                    alt=""
-                  />
+                  <img src="/6.png" alt="Ariela Collins" />
                 </div>
                 <div className="team-card__social">
                   <a href="#" aria-label="social link">
@@ -1148,12 +1139,17 @@ export default function Home() {
               </a>
               <p>© Copyright 2023</p>
               <div className="footer-social">
-                <a href="https://twitter.com/wevvo_ng" aria-label="twitter">
+                <a
+                  href="https://twitter.com/wevvo_ng"
+                  target="_blank"
+                  aria-label="twitter"
+                >
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a
                   href="https://web.facebook.com/Wevvo.ng"
                   aria-label="facebook"
+                  target="_blank"
                 >
                   <i className="fab fa-facebook-square"></i>
                 </a>
@@ -1161,6 +1157,7 @@ export default function Home() {
                 <a
                   href="https://www.instagram.com/wevvo.ng/"
                   aria-label="instagram"
+                  target="_blank"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>

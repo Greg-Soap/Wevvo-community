@@ -48,11 +48,16 @@ export default function Navbar() {
                 <div className="main-header__top">
                   <p>Welcome to our community-based platform</p>
                   <div className="main-header__social">
-                    <a href="https://twitter.com/wevvo_ng" aria-label="twitter">
+                    <a
+                      href="https://twitter.com/wevvo_ng"
+                      target="_blank"
+                      aria-label="twitter"
+                    >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
                       href="https://web.facebook.com/Wevvo.ng"
+                      target="_blank"
                       aria-label="facebook"
                     >
                       <i className="fab fa-facebook-square"></i>
@@ -60,6 +65,7 @@ export default function Navbar() {
 
                     <a
                       href="https://www.instagram.com/wevvo.ng/"
+                      target="_blank"
                       aria-label="instagram"
                     >
                       <i className="fab fa-instagram"></i>
@@ -386,24 +392,37 @@ export default function Navbar() {
           <ul className="mobile-nav__contact list-unstyled">
             <li>
               <i className="azino-icon-email"></i>
-              <a href="mailto:contact@wevvo.ng">contact@wevvo.ng</a>
+              <a href="mailto:contact@wevvo.ng" target="_blank">
+                contact@wevvo.ng
+              </a>
             </li>
             <li>
               <i className="azino-icon-telephone"></i>
-              <a href="tel:+2348136326729">+2348136326729</a>
+              <a href="tel:+2348136326729" target="_blank">
+                +2348136326729
+              </a>
             </li>
           </ul>
           <div className="mobile-nav__top">
             <div className="mobile-nav__social">
-              <a href="https://twitter.com/wevvo_ng" aria-label="twitter">
+              <a
+                href="https://twitter.com/wevvo_ng"
+                target="_blank"
+                aria-label="twitter"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="https://web.facebook.com/Wevvo.ng" aria-label="facebook">
+              <a
+                href="https://web.facebook.com/Wevvo.ng"
+                target="_blank"
+                aria-label="facebook"
+              >
                 <i className="fab fa-facebook-square"></i>
               </a>
 
               <a
                 href="https://www.instagram.com/wevvo.ng/"
+                target="_blank"
                 aria-label="instagram"
               >
                 <i className="fab fa-instagram"></i>
