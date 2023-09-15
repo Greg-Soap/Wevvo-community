@@ -313,10 +313,7 @@ export default function Home() {
                 <div className="cause-card">
                   <div className="cause-card__inner">
                     <div className="cause-card__image">
-                      <img
-                        src="static/images/cause-1-1-82d50d7aa80025da752177837e784a16.jpg"
-                        alt=""
-                      />
+                      <img src="/type1.png" alt="" />
                     </div>
                     <div className="cause-card__content">
                       <div className="cause-card__top"></div>
@@ -336,10 +333,7 @@ export default function Home() {
                 <div className="cause-card">
                   <div className="cause-card__inner">
                     <div className="cause-card__image">
-                      <img
-                        src="static/images/cause-1-4-ed3314a91fd8247bf1207f51a63ebdcb.jpg"
-                        alt=""
-                      />
+                      <img src="/type3.png" alt="" />
                     </div>
                     <div className="cause-card__content">
                       <h3>
@@ -355,10 +349,7 @@ export default function Home() {
                 <div className="cause-card">
                   <div className="cause-card__inner">
                     <div className="cause-card__image">
-                      <img
-                        src="static/images/cause-1-3-86977bd45148d0e498104f72c4a8ea77.jpg"
-                        alt=""
-                      />
+                      <img src="/type2.jpg" alt="" />
                     </div>
                     <div className="cause-card__content">
                       <h3>
@@ -377,10 +368,7 @@ export default function Home() {
                 <div className="cause-card">
                   <div className="cause-card__inner">
                     <div className="cause-card__image">
-                      <img
-                        src="static/images/cause-1-3-86977bd45148d0e498104f72c4a8ea77.jpg"
-                        alt=""
-                      />
+                      <img src="type4.png" alt="" />
                     </div>
                     <div className="cause-card__content">
                       <h3>
