@@ -643,13 +643,23 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="team-4-col">
-              <div className="team-card text-center content-bg-1">
+            <Swiper
+              modules={[Autoplay]}
+              slidesPerView={4}
+              spaceBetween={30}
+              autoplay={{ disableOnInteraction: false, delay: 2500 }}
+              className="team-4-col"
+            >
+              <SwiperSlide className="team-card text-center content-bg-1">
                 <div className="team-card__image">
                   <img src="/4.png" alt="Silja Thorbjornsdottir" />
                 </div>
                 <div className="team-card__social">
-                  <a href="#" aria-label="social link">
+                  <a
+                    target="_blank"
+                    href="https://nl.linkedin.com/in/siljathor"
+                    aria-label="social link"
+                  >
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -657,50 +667,111 @@ export default function Home() {
                   <h3>Silja Thorbjornsdottir</h3>
                   <p>Startup Coach/Mentor</p>
                 </div>
-              </div>
-              <div className="team-card text-center content-bg-2">
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-2">
                 <div className="team-card__image">
                   <img src="/5.jpg" alt="Adegboyega Adebajo" />
                 </div>
                 <div className="team-card__social">
-                  <a href="#" aria-label="social link">
-                    <i className="fab fa-twitter"></i>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/adegboyega-adebajo-94973b10"
+                    aria-label="social link"
+                  >
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
                 <div className="team-card__content">
                   <h3>Adegboyega Adebajo</h3>
                   <p>CEO, Amethyst and Ashlar advisory</p>
                 </div>
-              </div>
-              <div className="team-card text-center content-bg-3">
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-3">
                 <div className="team-card__image">
                   <img src="/2.jpg" alt="Christine Sesay" />
                 </div>
                 <div className="team-card__social">
-                  <a href="#" aria-label="social link">
-                    <i className="fab fa-twitter"></i>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/christine-sesay-810b881/"
+                    aria-label="social link"
+                  >
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
                 <div className="team-card__content">
                   <h3>Christine Sesay</h3>
                   <p>Vice President, Kepler Global</p>
                 </div>
-              </div>
-              <div className="team-card text-center content-bg-4">
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-4">
                 <div className="team-card__image">
                   <img src="/6.png" alt="Ariela Collins" />
                 </div>
                 <div className="team-card__social">
-                  <a href="#" aria-label="social link">
-                    <i className="fab fa-twitter"></i>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/arielacollins"
+                    aria-label="social link"
+                  >
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
                 <div className="team-card__content">
                   <h3>Ariela Collins</h3>
                   <p>People Specialist at SpLa region, Google.</p>
                 </div>
-              </div>
-            </div>
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-4">
+                <div className="team-card__image">
+                  <img src="/3.png" alt="Wale Ajiboye" />
+                </div>
+                <div className="team-card__social">
+                  <a href="#" aria-label="social link">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <div className="team-card__content">
+                  <h3>Wale Ajiboye</h3>
+                  <p>
+                    Associate Director, Strategic partnership and leadership,
+                    Acumen WA.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-4">
+                <div className="team-card__image">
+                  <img src="/1.png" alt="Abiodun Baiyewu" />
+                </div>
+                <div className="team-card__social">
+                  <a href="#" aria-label="social link">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <div className="team-card__content">
+                  <h3>Abiodun Baiyewu</h3>
+                  <p>Executive Director, Global Rights Nigeria</p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="team-card text-center content-bg-4">
+                <div className="team-card__image">
+                  <img src="/7.jpg" alt="Oluwatoyin Adegbite-Moore" />
+                </div>
+                <div className="team-card__social">
+                  <a
+                    target="_blank"
+                    href="http://linkedin.com/in/oluwatoyin-adegbite-moore-a988aa5"
+                    aria-label="social link"
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <div className="team-card__content">
+                  <h3>Oluwatoyin Adegbite-Moore</h3>
+                  <p>Executive Director, AVPA</p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </section>
         <div className="gallery-testimonials-parallax">

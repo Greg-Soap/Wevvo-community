@@ -19023,10 +19023,11 @@ Copyright (c) 2015 Daniel Eden
 }
 .team-card__social {
   position: absolute;
-  top: 0;
+  top: 230px;
   left: 0;
   width: 100%;
   opacity: 0;
+  z-index: 1000;
   visibility: hidden;
 }
 .team-card__social,
